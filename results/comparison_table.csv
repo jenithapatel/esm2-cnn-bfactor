@@ -1,0 +1,5 @@
+Model,Val Spearman ρ,Test Spearman ρ,Test Pearson r,Test RMSE,Notes
+Linear baseline,+0.0156,+0.0285,+0.0186,0.4950,Linear(1280→1)
+1D CNN (headline),+0.0409,+0.0385,+0.0294,0.4889,"k=(5,7,9), h=64"
+IUPred2A (disorder),—,+0.0374,—,—,sequence-based disorder score
+AlphaFold pLDDT,—,-0.0107,—,—,neg. correlation expected (high pLDDT = ordered)
