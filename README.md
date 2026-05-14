@@ -1,4 +1,4 @@
-# Beyond Cryo: Predicting Temperature-Sensitive Residues from Sequence
+#Predicting Temperature-Dependent Protein Loop Disorder from Sequence Using Deep Learning
 
 Final project for **Deep Learning in Genomics** (Spring 2026). The goal is to predict, from sequence alone, which residues in a protein become disordered at cryogenic temperature but remain ordered closer to physiological temperature — the kind of localized "freezing artifact" that motivates multi-temperature X-ray crystallography.
 
