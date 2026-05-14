@@ -123,10 +123,3 @@ transformers          # facebook/esm2_t33_650M_UR50D
 - **Class imbalance for "cryo-only-disordered" residues.** ~1,400 ambient-only-modeled residues across the dataset are the DL2-style cases. Binary framing would be heavily imbalanced; the continuous Δ-B framing was chosen instead.
 - **B-factors are z-scored within each structure** before differencing. Absolute B-factor magnitudes are not comparable across crystals because of refinement-scale differences.
 
-## Citation
-
-If you use the dataset construction pipeline, please also cite the original AdoMetDC multi-temperature crystallography paper this project builds on:
-
-> Patel, J. et al. (2025). *Multi-temperature crystallography of human AdoMetDC reveals temperature-dependent disordered loops.* **Biomolecules** 15, 1274. [DOI / link]
-
-PDB entries: 9P1H (100 K), 9P7Q (273 K), 9PBB (293 K).
